@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;   
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #f1f1f1!important;
+}
+
+
+
+/* .head a{
+    float: left; 
+    width:20px;
+    height:20px; 
+    vertical-align: center;      
+} */
+/* .td-flr{
+    float:right;
+} */
+.header{
+    background:#000;
+}
+
+.head a{
+    display: block;
+    text-align: center;
+    padding:10px;
+    color:#fff
+}
+.head a:hover{
+    color:#000;
+    background-color: #fff;
+}
+
+.blog-person{
+    padding:30px;
+}
+
+.blog-sec{
+    text-align: center;
+    line-height: 42px;
+}
+
+.blog-sec .world{
+    background:#000;
+    color:#fff;
+    padding:2px;
+}
+
+.fashion-div{
+    width: 100%;
+    position: relative;
+}
+.color-wh{
+    color:#fff;
+}
+.fashion-div img{
+    width: 100%;
+  
+   
+}
+.fashion-div .fashion-text {
+    position: absolute;
+    top: 50%;
+    left: 31px;
+}
+
+.col-head{
+    text-align: center;
+    padding:40px 0px;
+}
+.columns{
+    width: 100%;
+    margin:2px;
+  
+}
+.column{
+    width: 100%;
+    background:#fff;
+}
+.column img{
+    width: 100%;
+}
+.col-pad{
+    padding:20px;
+}
+
+.col-img2{
+    background-color: #000;
+    color: #fff;
+}
+.girl2sec{
+  
+    padding:10px;
+}
+
+.popular-post-heading{
+    background-color: #000;
+    color:#fff;
+    padding: 10px;
+}
+.post-content{
+    width: 100%;
+    padding:10px;
+    border-bottom: 1px solid #cdcbcb;
+}
+.post-content img{
+    width: 50px;
+
+}
+.post-content{
+   
+    content: "";
+    display: table;
+    clear: both;
+}
+.hovr:hover{
+    background-color: #cdcbcb;
+}
+
+.addhere{
+    padding:20px;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.foot{
+    height:50px;
+}
+.footcontent{
+    height:150px;
+    background-color: #838282;
+}
+.footcontent p{
+   margin-top: 74px;
+   padding:20px;
+   color:#fff;
+}
+.border-cell{
+    border: 1px solid #f5f4f4;
+}
+@media (min-width: 400px) {
+    .head a{
+        display: inline-block;
+    }
+    .hd-flr{
+        float:right;
+    }
+
+    .column-70{
+        width:70%;
+    }
+    .column-30{
+        width:30%;
+    }
+
+    .column-80{
+        width:80%;
+    }
+    .column-20{
+        width:20%;
+    }
+
+    .column-60{
+        width:60%;
+    }
+    .column-40{
+        width:40%;
+    }
+
+    .column{
+        float:left;
+    }
+}
